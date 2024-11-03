@@ -4,7 +4,7 @@
 
 ## About
 
-About Text Here
+Веб-проект на примере верстки страницы для сайта GoTrieop
 
 ## Developers
 
