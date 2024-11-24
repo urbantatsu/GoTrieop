@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Laboratornaya_3_Odintsov_VTM23</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <div class="page">
+        <div class="page__illustration">
+            <img src="images/pattern.png" alt="Illustration">
+        </div>
+        <div class="page__form">
+            <h1 class="page__title">Sign up</h1>
+            <p class="page__subtitle">If you already have an account, register<br />You can <a class="page__subtitle-login" href="https://vk.com/video-11254710_456241594">Login here!</a></p>
+            <form class="form">
+                <div class="form__field">
+                    <label class="form__label" for="email"><span class="form__icon form__icon--email">
+                        <img src="images/masssage.png" alt="Email">
+                    </span>Email</label>
+                    <input class="form__input" type="email" id="email" placeholder="Enter your email address">
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="username"><span class="form__icon form__icon--user">
+                        <img src="images/user.png" alt="Username">
+                    </span>Username</label>
+                    <input class="form__input" type="text" id="username" placeholder="Enter your user name">
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="password"><span class="form__icon form__icon--lock">
+                        <img src="images/padlock.png" alt="Password">
+                    </span>Password</label>
+                    <input class="form__input" type="password" id="password" placeholder="Enter your password">
+                    <span class="form__visibility">
+                        <img src="images/invision.png" alt="Password">
+                    </span> 
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="confirm-password"><span class="form__icon form__icon--lock">
+                        <img src="images/padlock.png" alt="Confirm-password">
+                        </span>Confirm Password</label>
+                    <input class="form__input" type="password" id="confirm-password" placeholder="Confirm your password">
+                    <span class="form__visibility">
+                        <img src="images/invision.png" alt="Invision">
+                    </span>
+                </div>
+                <button class="form__button" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

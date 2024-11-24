@@ -1,0 +1,135 @@
+.page__illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 20px 0px;
+    min-width: 400px;
+    position: relative;
+}
+
+.page__illustration::before {
+    content: "Your logo";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    z-index: 1; /* Устанавливаем z-index, чтобы текст был поверх изображения */
+}
+
+.page__illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page__subtitle-login {
+    font-weight: 500;
+    color: #F44336;
+    margin: 6px;
+}
+
+.page__form {
+    flex: 1;
+    padding: 40px;
+}
+
+.page__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.page__subtitle {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #777;
+    text-align: left;
+}
+
+.form__field {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.form__icon {
+    position: absolute;
+    top: 63%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.3em; /* Размер иконки */
+}
+
+
+.form__icon--email {
+    color: #4CAF50;
+}
+
+.form__icon--user {
+    color: #2196F3;
+}
+
+.form__icon--lock {
+    color: #F44336;
+}
+
+.form__input {
+    width: calc(100% - 20px);  /* Учитываем место для иконок */
+    padding: 10px 10px 10px 35px; /* Отступ для иконок */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form__visibility {
+    position: absolute;
+    right: 30px;
+    top: 63%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form__button {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 150px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease; /* Плавный переход для кнопки */
+}
+
+.form__button:hover {
+    background-color: #e64a19; /* Цвет при наведении на кнопку */
+}
+
+
+@media (max-width: 768px) {
+    .page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page__illustration img{
+        display: none; /* Скрываем иллюстрацию на мобильных */
+    }
+
+    .page__form {
+        flex: 0 0 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+}
