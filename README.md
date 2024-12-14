@@ -18,9 +18,13 @@
       <img src="https://ibb.org.ru/images/2024/11/24/VARIANT-9-2.md.png" width="726" height="500">
 </p>
 
-## Лабораторная 3
+## Лабораторная 4
 
 Веб-проект на примере верстки сайта Explore Indonesia "Вариант 9"
+
+<p align="center">
+      <img src="https://ibb.org.ru/images/2024/12/14/Screenshot.png" width="726">
+</p>
 
 ## Developers
 
