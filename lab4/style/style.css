@@ -1,0 +1,30 @@
+@import url("header.css");
+@import url("main.css");
+@import url("articles.css");
+@import url("explorenum.css");
+@import url("footer.css");
+@import url("map.css");
+
+.body{
+    margin: 0 auto;
+    font-family: "DM Sans";
+}
+.text_decoration_none{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-weight: 700;
+    font-size: 42px;
+}
+@media (max-width:1919px){
+    .body{
+    width: 375px;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 40px;
+        margin: none;
+    }
+}
+
